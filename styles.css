@@ -1,27 +1,192 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+/* GLOBAL STYLES */
+
+body {
+  margin:0;
+  padding:0;
+  background: #222;
+}
+header {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+h1 {
+  font-size: 2.5em;
+  margin: 0;
+  padding: 1em;
+}
+h2 {
+  font-size: 1.5em;
+}
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  background: white;
+  text-align: center;
+  padding: 2px;
+}
+section {
+  font-size: 1em;
+  background: #888;
+  margin: 1em 1% 1em 1%;
+
+}
+section:hover {
+  background: #666;
 }
 
-li {
+
+/* FIRST BREAKPOINT (DESKTOP SIZE) */
+@media screen and (min-width: 500px) {
+  body {
+	  background: white;
+	  font-family: arial;
+  }
+  
+  section {
+	display: inline-block;
+	width: 45%;
+
+}
+}
+/* END FIRST BREAKPOINT */
+
+
+/* SECOND BREAKPOINT (DESKTOP SIZE) */
+@media screen and (min-width: 1000px) {
+  body {
+	  background: white;
+	  font-family: arial;
+  }
+    section {
+	width: 22%;
+}
+
+}
+/* END SECOND BREAKPOINT */
+
+
+/* NAV BAR */
+
+body {margin:0;}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: arial;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #1F618D;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
     float: left;
-}
-
-li a {
     display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  }
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #111;
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
 }
+
+/* END OF NAV BAR */
+
+
+
+/* Image Animation */
+
+
+figure {
+  width: 200px;
+  background: #aaa;
+  border: 2px solid #999;
+  overflow: hidden;
+}
+
+figure img {
+  width: 100%;
+  height: 100%;
+  background: #eee;
+  margin-bottom: -4em;
+  display: block;
+}
+
+/* 
+  styles the figcaption element when the page first loads. The 
+  `transition` property simply "prepares" the element for a style 
+  transition - it does NOT trigger the transition.
+
+  `opacity` affects the WHOLE element - at `.78` text less is harsh when
+  visible. If the alpha channel of the rgba `background` transitioned 
+  instead, the text would not be affected and remain 100% black.
+
+  A `height` of `4em` and `padding` of `.25em` will fit 3 lines of text 
+  with a line-height of 1.2em nicely. For more, change the values.
+*/
+figcaption {
+  box-sizing: border-box;
+  height: 4em;
+  line-height: 1.2em;
+  padding: .25em;
+  transform: translateY(4em);
+  background: #fff;
+  /* background: rgba( 255, 255, 255, 0 ); */
+  opacity: 0;
+  transition: all .5s;
+}
+
+/* 
+  These styles are applied to the `figcaption` element when hovering 
+  over the`figure` element. The `transition` property on `figcaption` 
+  above is then applied to `all` these hover styles, over 0.5 seconds.
+*/
+figure:hover figcaption {
+  transform: translateY(0em);
+  /* background: rgba( 255, 255, 255, .78 ); */
+  opacity: .78;
+}
+
+
+
+
+
+
+  /* SLIDESHOW */
 
 * {box-sizing:border-box}
 body {font-family: Verdana,sans-serif;margin:0}
@@ -96,26 +261,16 @@ body {font-family: Verdana,sans-serif;margin:0}
   background-color: #717171;
 }
 
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
 
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
 
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
+/* FOOTER */
 
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
+.footer {
+   position: bottom;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: left;
+   padding: 30px;
 }
 
