@@ -21,7 +21,7 @@ h2 {
   font-size: 1.5em;
 }
 main {
-  max-width: 1530px;
+  max-width: 1500px;
   margin: 0 auto;
   background: white;
   text-align: center;
@@ -80,7 +80,6 @@ text-align: center;
 }
 .topnav li {
 float:left;
-
 }
 
 .topnav ul {
@@ -103,6 +102,15 @@ body {
     background-color: #f1f1f1;
     padding: 20px;
     text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+
 }
 
 /* Style the top navigation bar */
@@ -161,13 +169,6 @@ body {
 }
 
 /* END OF NAV BAR */
-
-
-
-/* Image Animation */
-
-
-
 
 
   /* SLIDESHOW */
@@ -258,6 +259,15 @@ div.polaroid {
   padding-right: 10px;
   padding-top: 10px;
   padding-bottom: 25px;
+
+}
+
+div.container {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+
 }
 
 div.container {
@@ -310,6 +320,15 @@ div.container {
 	font-weight: 800;
 	
 }
+
+
+
+.newspaper {
+    -webkit-columns: 100px 3; /* Chrome, Safari, Opera */
+    -moz-columns: 100px 3; /* Firefox */
+    columns: 100px 3;
+}
+
 
 
 /* FOOTER */
