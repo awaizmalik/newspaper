@@ -3,7 +3,8 @@
 body {
   margin:0;
   padding:0;
-  background: #222;
+  background: white;
+  color: black;
 }
 header {
   background: #333;
@@ -20,7 +21,7 @@ h2 {
   font-size: 1.5em;
 }
 main {
-  max-width: 1000px;
+  max-width: 1530px;
   margin: 0 auto;
   background: white;
   text-align: center;
@@ -72,25 +73,60 @@ section:hover {
 body {margin:0;}
 
 .topnav {
-  overflow: hidden;
-  background-color: #333;
+max-width:1500px;
+margin:0 auto;
+list-style:none;
+text-align: center;
+}
+.topnav li {
+float:left;
+
 }
 
+.topnav ul {
+    display: inline-block;
+    list-style-type: none;
+	text-align: center;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the topnav links */
 .topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 20px;
-  font-family: arial;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
+/* Change color on hover */
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+    background-color: #ddd;
+    color: black;
 }
+
 
 .active {
   background-color: #1F618D;
@@ -131,58 +167,6 @@ body {margin:0;}
 /* Image Animation */
 
 
-figure {
-  width: 200px;
-  background: #aaa;
-  border: 2px solid #999;
-  overflow: hidden;
-}
-
-figure img {
-  width: 100%;
-  height: 100%;
-  background: #eee;
-  margin-bottom: -4em;
-  display: block;
-}
-
-/* 
-  styles the figcaption element when the page first loads. The 
-  `transition` property simply "prepares" the element for a style 
-  transition - it does NOT trigger the transition.
-
-  `opacity` affects the WHOLE element - at `.78` text less is harsh when
-  visible. If the alpha channel of the rgba `background` transitioned 
-  instead, the text would not be affected and remain 100% black.
-
-  A `height` of `4em` and `padding` of `.25em` will fit 3 lines of text 
-  with a line-height of 1.2em nicely. For more, change the values.
-*/
-figcaption {
-  box-sizing: border-box;
-  height: 4em;
-  line-height: 1.2em;
-  padding: .25em;
-  transform: translateY(4em);
-  background: #fff;
-  /* background: rgba( 255, 255, 255, 0 ); */
-  opacity: 0;
-  transition: all .5s;
-}
-
-/* 
-  These styles are applied to the `figcaption` element when hovering 
-  over the`figure` element. The `transition` property on `figcaption` 
-  above is then applied to `all` these hover styles, over 0.5 seconds.
-*/
-figure:hover figcaption {
-  transform: translateY(0em);
-  /* background: rgba( 255, 255, 255, .78 ); */
-  opacity: .78;
-}
-
-
-
 
 
 
@@ -194,7 +178,7 @@ body {font-family: Verdana,sans-serif;margin:0}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 100%;
+  max-width: 1500px;
   position: relative;
   margin: auto;
 }
@@ -263,54 +247,36 @@ body {font-family: Verdana,sans-serif;margin:0}
 
 
 
+body {margin:25px;}
+
+div.polaroid {
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+
+div.container {
+  text-align: center;
+  padding: 50px 20px;
+}
+
 
 
 /* COLUMNS */
-
-
-* {
-    box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-}
-
-/* Style the header */
-.header {
-    background-color: #f1f1f1;
-    padding: 20px;
-    text-align: center;
-}
-
-/* Style the top navigation bar */
-.topnav {
-    overflow: hidden;
-    background-color: #333;
-}
-
-/* Style the topnav links */
-.topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-/* Change color on hover */
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
-}
 
 /* Create three equal columns that floats next to each other */
 .column {
     float: left;
     width: 33.33%;
     padding: 15px;
+	text-align: left;
 }
+
 
 /* Clear floats after the columns */
 .row:after {
@@ -330,18 +296,20 @@ body {
 
 
 
+.tv-banner {
+	Max-width: 2000px;
+	text-align: center;
+	
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.mid-container {
+	
+	padding: 20px;
+	background-color: #f1f1f1;
+	font: impact;
+	font-weight: 800;
+	
+}
 
 
 /* FOOTER */
