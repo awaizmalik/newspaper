@@ -12,7 +12,7 @@
 <body>
 <br>
 <center>
- <img src="logo.jpg" style="width:150px">
+ <img src="logo.jpg" style="max-width:150px">
 </center>
 
 
@@ -29,6 +29,7 @@
   <a href="sci.html">Science</a>
 </div>
 
+
 <script>
 function myFunction() {
     var x = document.getElementById("myTopnav");
@@ -40,92 +41,28 @@ function myFunction() {
 }
 </script>
 
-<div class="slideshow-container">
 
 
-<div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
-  <img src="1.jpg" style="width:100%">
-
+<div class="tv-banner">
+<img src="pap.jpg" alt="papartzi" style="max-width:100%">
 </div>
 
-<div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
-  <img src="2.jpg" style="width:100%">
 
-</div>
 
-<div class="mySlides fade">
-  <div class="numbertext">3 / 3</div>
-  <img src="3.jpg" style="width:100%">
 
-</div>
-
-<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-<a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-</div>
 <br>
 
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
-</div>
-
-<script>
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
-
-var myIndex = 0;
-carousel();
-
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 6000); // Change image every 6 seconds
-}
 
 
-</script>
 
-<br>
+
+
 
   <!-- First Photo Grid-->
 <div class="row">
   <div class="column">
   	  	<div class="polaroid">
-      <img src="4.jpg" alt="Norway" style="width:100%">
+      <img src="theflash.jpg" alt="Norway" style="width:100%">
       <div class="w3-container w3-white">
         <p><b>LorTommy Fleetwood </b></p>
         <p>‘What I do know is it’s by far the biggest day of my career, even if it will take a while to sink in,’ he said.</p>
@@ -134,7 +71,7 @@ function carousel() {
 	  </div>
 	  
 	  	<div class="polaroid">
-      <img src="7.jpg" alt="Norway" style="width:100%" >
+      <img src="dead.jpg" alt="Norway" style="width:100%" >
       <div class="w3-container w3-white">
         <p><b>The power of four cups of coffee a day</b></p>
         <p>Three to four cups a day confers the greatest benefit, the University of Southampton researchers found, cutting the risk of heart disease by 15 per cent and the chance of an early death by 17 per cent.
@@ -143,8 +80,11 @@ function carousel() {
       </div>
 	  
 	  
+	 
+	  
+	  
 	  		  	<div class="polaroid">
-      <img src="10.jpg" alt="Norway" style="width:100%" >
+      <img src="thor.jpg" alt="Norway" style="width:100%" >
       <div class="w3-container w3-white">
         <p><b>Hollywood brothers James and Dave Franco</b></p>
         <p>Hollywood brothers James and Dave Franco would no doubt have proved just as popular as they 
@@ -157,18 +97,18 @@ function carousel() {
 	
 	  <div class="column">
 	  	<div class="polaroid">
-      <img src="5.jpg" alt="Norway" style="width:100%">
+      <img src="grey.jpg" alt="Norway" style="width:100%">
 
       <div class="w3-container w3-white">
 	  
-        <p><b>Zayn MaliK: VOUGE </b></p>
+        <p><b>Zayn Malik: VOUGE </b></p>
         <p>Pillowtalk video vixen: In July, the millennials made a 'dream come true' when they became the third 
 			couple to appear on the cover of Vogue in an androgynous spread shot by Inez & Vinoodh</p>
     </div>
 	</div>
 
 		  	<div class="polaroid">
-      <img src="9.jpg" alt="Norway" style="width:100%" >
+      <img src="jigsaw.jpg" alt="Norway" style="width:100%" >
       <div class="w3-container w3-white">
         <p><b>How Earth is being polluted by artificial light</b></p>
         <p>Areas of our planet are quickly losing their night sky and the problem is getting worse, scientists have warned.
@@ -183,7 +123,7 @@ function carousel() {
 
 	<div class="column">
 	<div class="polaroid">
-      <img src="6.jpg" alt="Norway" style="width:100%">
+      <img src="arrow.jpg" alt="Norway" style="width:100%">
       <div class="w3-container w3-white">
         <p><b>Stunning NASA 'oil painting'</b></p>
         <p>Variations in the darkness of the clouds reveal what’s thought to be the depth of the storm, with darker clouds sitting deeper in the atmosphere.
@@ -194,7 +134,7 @@ function carousel() {
 	  
 	  	
 		<div class="polaroid">
-      <img src="8.jpg" alt="Norway" style="width:100%">
+      <img src="justice.jpg" alt="Norway" style="width:100%">
       <div class="w3-container w3-white">
         <p><b>Windswept Kate swaps her designer </b></p>
         <p>Kate and William, who travelled up from their Kensington Palace home on Wednesday morning, began their day at Jaguar Land Rover's 
@@ -214,7 +154,6 @@ function carousel() {
   
 
   
-  
 <div class="footer">
 
   <center>
@@ -228,6 +167,8 @@ function carousel() {
   <i class="fa fa-copyright" aria-hidden="true"></i> COPYRIGHT: UNIVERISTY PROJECT PURPOSE ONLY 
   </center>
 </div>
+
+
 
 </body>
 </html>
