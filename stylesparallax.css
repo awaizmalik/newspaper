@@ -65,6 +65,9 @@ left {
 	width: 45%;
 
 }
+
+
+  
 }
 /* END FIRST BREAKPOINT */
 
@@ -337,7 +340,6 @@ div.container {
 }
 
 
-
 .newspaper {
     -webkit-columns: 100px 3; /* Chrome, Safari, Opera */
     -moz-columns: 100px 3; /* Firefox */
@@ -358,4 +360,26 @@ div.container {
 }
 
 
+
+.parallax {
+    /* The image used */
+    background-image: url("images/back.jpg");
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	margin: 0 auto;
+	width: 1500px;
+}
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
 
