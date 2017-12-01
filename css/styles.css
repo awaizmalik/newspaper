@@ -35,6 +35,12 @@ h2 {
   text-align: left;
 }
 
+section {
+  font-size: 1em;
+  background: #888;
+  margin: 1em 1% 1em 1%;
+}
+
 h6 {
 	font-size: 0em;
 }
