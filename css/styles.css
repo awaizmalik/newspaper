@@ -43,7 +43,7 @@ h6 {
 p {
   font-size: 20px;
   text-align: left;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Raleway', sans-serif;
   text-decoration: none;
 }
 
@@ -239,7 +239,7 @@ body {
 
   /* INDICATORS HOVER AND ACTIVE COLOR */
 .active, .dot:hover {
-  background-color: #717171; /* GREY */
+  background-color: black; /* black */
 }
 
 
@@ -310,19 +310,10 @@ section {
   background-color: #f1f1f1;
   font: impact;
   font-weight: 800;
-}
-
-
-.parallax {	
-  background-image: url("../images/back.jpg");
-  min-height: 500px; 
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   margin: 0 auto;
-  width: 1500px;
+  text-align: center;
 }
+
 
 .backimg1, .backimg2, .backimg3 {
 	position: relative;
@@ -330,8 +321,9 @@ section {
 	background-position:center;
 	background-size:cover;
 	background-repeat:no-repeat;
-	
 	background-attachment: fixed;
+	max-width: 1500px;
+	margin: 0 auto;
 }
 
 
@@ -358,6 +350,8 @@ article {
 	background-color: #212F3D; /* NAVY */
 	color: white;
 	font-family: 'Raleway', sans-serif;
+	max-width: 1500px;
+	margin: 0 auto;
 } 
 
 
@@ -371,6 +365,8 @@ article {
 	letter-spacing: 8px;
 	text-transform: uppercase;
 	font-family: 'Raleway', sans-serif;
+	max-width: 1500px;
+	margin: 0 auto;
 }
 
 .paratext .border {
@@ -395,7 +391,8 @@ article {
   /* FOOTER */
 footer {
   position: bottom;
-  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
   background-color: black;
   color: white;
   text-align: center;
