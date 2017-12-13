@@ -374,7 +374,7 @@ footer {
   position: bottom;
   max-width: 1500px;
   margin: 0 auto;
-  background-color: black;
+  background-color: #212F3D; /* NAVY */
   color: white;
   text-align: center;
   padding: 30px;
