@@ -9,11 +9,12 @@ html {
 }
 
 body {
-  margin:0;
+  margin: 25px;
   padding:0;
   background: white;  /* WHITE */
   color: black;  /* BLACK */
 }
+
 
 main {
   max-width: 1500px;
@@ -225,12 +226,13 @@ div#slider figure {
   animation: 30s slidy infinite; 
 }
 
-
-
-  /* BODY MARGIN (MOBILE, TABLET & DESKTOP) */
-body {
-  margin:25px;
+#wrapper {
+    max-width: 1500px;
+    margin: 0 auto;
 }
+
+  /* SLIDESHOW ENDS */
+
 
   /* START OF POLAROID GALLERY) */
 div.polaroid {
