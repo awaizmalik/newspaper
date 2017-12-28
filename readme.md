@@ -7,16 +7,21 @@ https://awaizmalik.github.io/newspaper/
 ![Screenshot](https://github.com/awaizmalik/newspaper/blob/master/images/w3.jpg)
 
 #Screen Designs: 
-![Screenshot](../images/index.jpg)
-![Screenshot](../images/otherpages.jpg)
-![Screenshot](../images/article.jpg)
-![Screenshot](../images/aboutus.jpg)
+Index Page;
+![Screenshot](https://github.com/awaizmalik/newspaper/blob/master/images/screen1.jpg)
+TV, science,sports pages;
+![Screenshot](https://github.com/awaizmalik/newspaper/blob/master/images/screen2.jpg)
+Article Pages (all structure);
+![Screenshot](https://github.com/awaizmalik/newspaper/blob/master/images/screen3.jpg)
+About Us page: 
+![Screenshot](https://github.com/awaizmalik/newspaper/blob/master/images/screen4.jpg)
 
 #Navigation Structure:
-![Screenshot](../images/ns.jpg)
+![Screenshot](https://github.com/awaizmalik/newspaper/blob/master/images/ns.jpg)
 
 #Test Plan:
-![Screenshot](../images/testplan.jpg)
+![Screenshot](https://github.com/awaizmalik/newspaper/blob/master/images/test1.jpg)
+![Screenshot](https://github.com/awaizmalik/newspaper/blob/master/images/test2.jpg)
 
 #References: 
 Gandy, D. (2017). Cite a Website - Cite This For Me. [online] Fontawesome.io. Available at: http://fontawesome.io/ [Accessed 27 Nov. 2017].
