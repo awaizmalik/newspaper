@@ -4,7 +4,7 @@
 https://awaizmalik.github.io/newspaper/
 
 #W3 Validator:
-![Screenshot](../images/w3.jpg)
+![Screenshot](https://github.com/awaizmalik/newspaper/blob/master/images/w3.jpg)
 
 #Screen Designs: 
 ![Screenshot](../images/index.jpg)
