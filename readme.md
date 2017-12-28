@@ -1,25 +1,25 @@
 # Newspaper Website
 
-#Website link:
+# Website link:
 https://awaizmalik.github.io/newspaper/
 
-#W3 Validator:
+# W3 Validator:
 ![Screenshot](https://github.com/awaizmalik/newspaper/blob/master/images/w3.jpg)
 
-#Screen Designs: 
-Index Page;
+# Screen Designs: 
+## Index Page;
 ![Screenshot](https://github.com/awaizmalik/newspaper/blob/master/images/screen1.jpg)
-#TV, science,sports pages;
+## TV, science,sports pages;
 ![Screenshot](https://github.com/awaizmalik/newspaper/blob/master/images/screen2.jpg)
-#Article Pages (all structure);
+## Article Pages (all structure);
 ![Screenshot](https://github.com/awaizmalik/newspaper/blob/master/images/screen3.jpg)
-#About Us page: 
+## About Us page: 
 ![Screenshot](https://github.com/awaizmalik/newspaper/blob/master/images/screen4.jpg)
 
-#Navigation Structure:
+# Navigation Structure:
 ![Screenshot](https://github.com/awaizmalik/newspaper/blob/master/images/ns.jpg)
 
-#Test Plan:
+# Test Plan:
 ![Screenshot](https://github.com/awaizmalik/newspaper/blob/master/images/test1.jpg)
 ![Screenshot](https://github.com/awaizmalik/newspaper/blob/master/images/test2.jpg)
 
