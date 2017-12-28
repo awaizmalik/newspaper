@@ -9,11 +9,11 @@ https://awaizmalik.github.io/newspaper/
 #Screen Designs: 
 Index Page;
 ![Screenshot](https://github.com/awaizmalik/newspaper/blob/master/images/screen1.jpg)
-TV, science,sports pages;
+#TV, science,sports pages;
 ![Screenshot](https://github.com/awaizmalik/newspaper/blob/master/images/screen2.jpg)
-Article Pages (all structure);
+#Article Pages (all structure);
 ![Screenshot](https://github.com/awaizmalik/newspaper/blob/master/images/screen3.jpg)
-About Us page: 
+#About Us page: 
 ![Screenshot](https://github.com/awaizmalik/newspaper/blob/master/images/screen4.jpg)
 
 #Navigation Structure:
