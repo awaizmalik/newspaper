@@ -27,6 +27,8 @@ https://awaizmalik.github.io/newspaper/
 ## Logo shakes when hover
 ## Slideshow keyframe slider
 
+# API:
+## Google Maps
 
 # References: 
 Gandy, D. (2017). Cite a Website - Cite This For Me. [online] Fontawesome.io. Available at: http://fontawesome.io/ [Accessed 27 Nov. 2017].
