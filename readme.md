@@ -23,11 +23,17 @@ https://awaizmalik.github.io/newspaper/
 ![Screenshot](https://github.com/awaizmalik/newspaper/blob/master/images/test1.jpg)
 ![Screenshot](https://github.com/awaizmalik/newspaper/blob/master/images/test2.jpg)
 
-#References: 
+# Animations:
+## Logo shakes when hover
+## Slideshow keyframe slider
+
+
+# References: 
 Gandy, D. (2017). Cite a Website - Cite This For Me. [online] Fontawesome.io. Available at: http://fontawesome.io/ [Accessed 27 Nov. 2017].
 Google Fonts. (2017). Google Fonts. [online] Available at: https://fonts.google.com/ [Accessed 27 Nov. 2017].
 Htmlcolorcodes.com. (2017). Center Navigation Bar. [online] Available at: http://htmlcolorcodes.com/ [Accessed 27 Nov. 2017].
 Mozilla Developer Network. (2017). Document and website structure. [online] Available at: https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure [Accessed 27 Nov. 2017].
+Nordstrm, N. (2017). Slideshow, CSS only. [online] CodePen. Available at: https://codepen.io/daysahead/pen/mJqBge [Accessed 28 Dec. 2017].
 W3.org. (2017). Alignment, font styles, and horizontal rules in HTML documents. [online] Available at: https://www.w3.org/TR/html401/present/graphics.html [Accessed 27 Nov. 2017].
 W3schools.com. (2017). W3.CSS Slideshow. [online] Available at: https://www.w3schools.com/w3css/w3css_slideshow.asp [Accessed 27 Nov. 2017].
 W3schools.com. (2017). CSS Images. [online] Available at: https://www.w3schools.com/css/css3_images.asp [Accessed 27 Nov. 2017].
